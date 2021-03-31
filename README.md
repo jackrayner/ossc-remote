@@ -29,7 +29,7 @@ The hex codes sent to the OSSC are the defaults included in the firmware and can
 ### Code
 
 * Clone this repo
-* Open `remote.ino` with the (Arduino IDE)[https://www.arduino.cc/en/Main/Software]
+* Open `remote.ino` with the [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 * Install the [IR Remote library](https://github.com/z3t0/Arduino-IRremote) using [this](https://www.arduino.cc/en/guide/libraries#toc3) guide
 * Open the serial monitor window (Tools > Serial monitor)
 * Upload the sketch to the board
