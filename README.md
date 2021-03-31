@@ -71,11 +71,11 @@ Ready to send IR signals at pin 3
 Choose 1 for remote mode, 2 for L336 programming.
 ```
 
-* Get your L336 remote and position the L.E.D of the Arduino so it's facing the IR LED of the L336 remote. They to be very close - if not touching - to work.
+* Get your L336 remote and position the L.E.D of the Arduino so it's facing the IR LED of the L336 remote. They need to be very close - if not touching - to work.
 
 * Enter the code for the button you want to program into the serial monitor **but do not press `send` yet**.
 
-* On the remote, press once the device button (TV or DVR or HIFI) you want to assign for use with your OSSC, then press and hold the same button until the red light's brightness increases and stays lit when you release the button. Move on to the next step within ~10 seconds, otherwise you will need to repeat this.
+* On the remote, press once the device button (TV or DVR or HIFI) you want to assign for use with your OSSC, then press and hold the same button until the red light's brightness increases. Release the button and the red light should stay lit; you now have ~10 seconds to complete the next step.
 
 * Press `send` to make the Arduino start sending the code and immediately move to the next step.
 
@@ -84,7 +84,7 @@ Please enter button number.
 Sending code for button 0 (3EC129D6) for 15 seconds.............................
 ```
 
-* Press and hold the button on the remote corresponding to the number you've entered. The red light will go out. Then release it after about 3 seconds and the red light should blink rapidly 3 times and then go back to a steady red. If it just blinks red then you need to retry.
+* Press and hold the button on the remote corresponding to the number you've entered. The red light will go out. Then release it after about 3 seconds and the red light should blink rapidly 3 times and then go back to a steady red. If it just blinks red then you need to retry this step.
 
 * Press the same device button once (TV or DVR or HIFI) to exit learning mode. The red light should go off on the remote.
 
